@@ -1,0 +1,25 @@
+.value1{
+    display: flex;
+    flex-wrap: wrap;
+    >input {
+        margin: 10px;
+    }
+
+  
+}
+.btnConvert{
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+select{
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
