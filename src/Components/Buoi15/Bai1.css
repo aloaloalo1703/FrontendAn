@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    border: 1px solid black;
+    padding: 50px;
+    text-align: right;
+    box-shadow: 10px 10px 8px 10px #c4c0c0  ;
+    > div:first-child{
+        width: 500px;
+    }
+    > div{
+        margin: 2px;
+        cursor: pointer;
+        border: 0.5px solid gray;
+        width: 109px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .btn-zero{
+        width: 234px;
+    }
+}
